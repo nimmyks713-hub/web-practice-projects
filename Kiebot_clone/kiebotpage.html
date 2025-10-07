@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           header{
+            position:fixed;
+            top:0;
+            width:100%;
+            z-index:1000;
+            background-color: #191970;
+    
+           }
+            .logo{
+                height:auto;
+                width:150px;
+            }
+            .navbar{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height:70px;
+                margin-bottom:0;
+            }
+            .links{
+                display: flex;
+                justify-content: flex-end;
+                list-style-type: none;
+                gap:30px;
+            }
+            .links a{
+                color:white;
+                text-decoration: none;
+            }
+            .contact{
+                background-color: white;
+                font-weight: bold;
+                text-align: center;
+                font-size: large;
+                height:40px;
+                width:150px;
+                border-radius: 5px;
+                border-style: none;
+            }
+            .contact a{
+                text-decoration: none;
+                color:black;
+            }
+            .main{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                margin:0px 50px;
+                padding:140px 70px 0 70px;
+            }
+            
+            .main img{
+                height:auto;
+                width:500px;
+            }
+            .main h1{
+                color:white;
+                font-size:3em;
+            }
+            .main p{
+                color:white;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                line-height: 1.5;
+            }
+            .service{
+                background-color: azure;
+                padding-top:15px;
+                position:relative;
+                z-index:1;
+            }
+            .service h1{
+            color:black;
+            text-align: center;
+            font-size: 3em;
+            }
+            .service p{
+                color:black;
+                text-align: center;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size:1em;
+                margin:0;
+                padding:0 20px;
+            }
+            .stat-boxes{
+                display:flex;
+                justify-content: center;
+                position:relative;
+                margin-top:-50px;
+                z-index:2;
+            }
+            .stat{
+                background-color: white;
+                
+                border-radius: 10px;
+                width:300px;
+                height:90px;
+                text-align:center;
+                box-shadow:0 4px 10px rgba(0,0,0,1);
+                padding:10px;
+            }
+            
+            .stat p{
+                margin:0;
+                padding:0;
+                font-weight: bold;
+            }
+            .stat h1{
+                margin:0;
+                padding:0;
+            }
+            
+        </style>
+    </head>
+    <body style="background-color: #191970; margin:0;">
+        <header>
+            <nav class="navbar">
+            <img class="logo" src="images/white-logo.png" alt="Logo"/>
+            <ul class="links">
+            <li><a href="https://kiebot.com/services">SERVICES</a></li>
+            <li><a href="https://kiebot.com/portfolio">PORTFOLIO</a></li>
+            <li><a href="https://kiebot.com/insights">INSIGHTS</a></li>
+            <li><a href="https://kiebot.com/careers">CAREERS</a></li>
+            <li><a href="https://kiebot.com/life-kiebot">COMPANY</a></li>
+            </ul>
+            <button class="contact"><a href="https://kiebot.com/contact">Contact</a></button>
+            </nav>
+            </header>
+            <content class="main">
+                <div>
+                    <h1>Agile expert for Quality, Rapid and Economical Software Solutions</h1>
+                    <p style="color: white;">Our team excels in Node.js, NestJS, React, Next.js, Python, Java, Laravel, Android, iOS, React Native, Flutter, and more. Seamlessly integrate our experts into your projects for exceptional results.</p>
+                 <button class="contact">CALL NOW</button>
+                </div>
+                <div class="image">
+                    <img src="images/keibot.png"/>
+                </div>
+            </content>
+            <div class="stat-boxes">
+                <div class="stat"><h2>5+</h2><p>Years</p></div>
+                <div class="stat"><h2>33+</h2><p>Clients</p></div>
+                <div class="stat"><h2>45+</h2><p>Projects</p></div>
+                <div class="stat"><h2>50+</h2><p>Engineers</p></div>
+            </div>
+            <div class="service">
+                <h1>Our Services</h1>
+                <p>At Kiebot, we’re dedicated to delivering excellence in a wide range of services to meet your unique needs. Explore our comprehensive offerings and discover Kiebot’s approach, which sets us apart in the context of each service :</p>
+            </div>
+    </body>
+</html>
